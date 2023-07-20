@@ -1311,7 +1311,7 @@ def matern_kernel(
     -----------
     r : array
         Distances between locations.
-    l : float
+    length_scale : float
         Range parameter (ϕ). Must be greater than 0.
     v : float
         Smoothness parameter (nu). Must be greater than 0.
